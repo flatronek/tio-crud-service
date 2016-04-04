@@ -1,3 +1,9 @@
 TIO lab 4 - CRUD Service with LiteDB
 
+Launching:
+1. Build 'Model' solution
+2. Add references to created .dll files (in _proj/obj/Debug) in both Service projects
+3. Install LiteDB in both Service projects
+4. Build Services
+
 Author: Sebastian Brandys
