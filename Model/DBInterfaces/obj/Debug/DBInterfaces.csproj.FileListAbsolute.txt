@@ -1,0 +1,7 @@
+C:\Projekty\TIO\CRUD\Model\DBInterfaces\bin\Debug\DBInterfaces.dll
+C:\Projekty\TIO\CRUD\Model\DBInterfaces\bin\Debug\DBInterfaces.pdb
+C:\Projekty\TIO\CRUD\Model\DBInterfaces\bin\Debug\Model.dll
+C:\Projekty\TIO\CRUD\Model\DBInterfaces\bin\Debug\Model.pdb
+C:\Projekty\TIO\CRUD\Model\DBInterfaces\obj\Debug\DBInterfaces.csprojResolveAssemblyReference.cache
+C:\Projekty\TIO\CRUD\Model\DBInterfaces\obj\Debug\DBInterfaces.dll
+C:\Projekty\TIO\CRUD\Model\DBInterfaces\obj\Debug\DBInterfaces.pdb
