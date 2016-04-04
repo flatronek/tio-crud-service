@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MovieService")]
+[assembly: AssemblyTitle("CRUDClient")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MovieService")]
+[assembly: AssemblyProduct("CRUDClient")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("964c1ab1-7f03-46bb-a34c-e4f1f5b9a202")]
+[assembly: Guid("98e6d714-3b06-4d12-9c36-b7653dcc9d50")]
 
 // Version information for an assembly consists of the following four values:
 //

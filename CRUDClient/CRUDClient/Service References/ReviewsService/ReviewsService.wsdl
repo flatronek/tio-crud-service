@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ReviewsService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReviewsService_GetAllAuthors_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAuthors" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_GetAllAuthors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAuthorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_AddAuthor_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAuthor" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_AddAuthor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAuthorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_GetAuthor_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAuthor" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_GetAuthor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAuthorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_UpdateAuthor_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAuthor" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_UpdateAuthor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAuthorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_DeleteAuthor_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAuthor" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_DeleteAuthor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAuthorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_GetAllReviews_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllReviews" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_GetAllReviews_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllReviewsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_AddReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddReview" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_AddReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_GetReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReview" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_GetReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_UpdateReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateReview" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_UpdateReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_DeleteReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteReview" />
+  </wsdl:message>
+  <wsdl:message name="IReviewsService_DeleteReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteReviewResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IReviewsService">
+    <wsdl:operation name="GetAllAuthors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/GetAllAuthors" message="tns:IReviewsService_GetAllAuthors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/GetAllAuthorsResponse" message="tns:IReviewsService_GetAllAuthors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAuthor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/AddAuthor" message="tns:IReviewsService_AddAuthor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/AddAuthorResponse" message="tns:IReviewsService_AddAuthor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/GetAuthor" message="tns:IReviewsService_GetAuthor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/GetAuthorResponse" message="tns:IReviewsService_GetAuthor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAuthor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/UpdateAuthor" message="tns:IReviewsService_UpdateAuthor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/UpdateAuthorResponse" message="tns:IReviewsService_UpdateAuthor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAuthor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/DeleteAuthor" message="tns:IReviewsService_DeleteAuthor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/DeleteAuthorResponse" message="tns:IReviewsService_DeleteAuthor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllReviews">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/GetAllReviews" message="tns:IReviewsService_GetAllReviews_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/GetAllReviewsResponse" message="tns:IReviewsService_GetAllReviews_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/AddReview" message="tns:IReviewsService_AddReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/AddReviewResponse" message="tns:IReviewsService_AddReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/GetReview" message="tns:IReviewsService_GetReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/GetReviewResponse" message="tns:IReviewsService_GetReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/UpdateReview" message="tns:IReviewsService_UpdateReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/UpdateReviewResponse" message="tns:IReviewsService_UpdateReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReviewsService/DeleteReview" message="tns:IReviewsService_DeleteReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReviewsService/DeleteReviewResponse" message="tns:IReviewsService_DeleteReview_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IReviewsService" type="tns:IReviewsService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllAuthors">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/GetAllAuthors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAuthor">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/AddAuthor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthor">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/GetAuthor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAuthor">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/UpdateAuthor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAuthor">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/DeleteAuthor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllReviews">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/GetAllReviews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddReview">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/AddReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReview">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/GetReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateReview">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/UpdateReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteReview">
+      <soap:operation soapAction="http://tempuri.org/IReviewsService/DeleteReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReviewsService">
+    <wsdl:port name="BasicHttpBinding_IReviewsService" binding="tns:BasicHttpBinding_IReviewsService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

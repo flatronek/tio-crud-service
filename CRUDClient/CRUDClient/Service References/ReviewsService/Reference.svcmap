@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4f5dac87-445c-4da0-8852-3922b594e61a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="7ffd13b1-b864-40c7-b5c6-cb33d482c450" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="50da833d-419a-4f05-becb-26132e2950ff" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="1211a153-1289-4a63-b5b9-02bcd91eee87" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/?disco" />
+    <MetadataFile FileName="ReviewsService.wsdl" MetadataType="Wsdl" ID="66589879-9b96-4ee6-b24b-b5dc1d1838f9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="71cdcc84-052f-457a-aede-b1202d1d2c50" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsCRUDService/ReviewsService/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

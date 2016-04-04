@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c9eb329c-1658-4d89-9c3c-82af2473ca59" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/MovieCRUDService/Movies/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="4ed1438c-faea-4559-8851-5be6dfa18769" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MovieCRUDService/Movies/?xsd=xsd0" />
+    <MetadataFile FileName="MoviesService.wsdl" MetadataType="Wsdl" ID="491c8357-3539-47a9-aae2-200c9e1d73a7" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MovieCRUDService/Movies/?wsdl" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="41696031-3e7e-4ee2-8ec7-2476a8ebe799" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MovieCRUDService/Movies/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="03181e55-db5a-4a3f-ac03-98fbcdb8ced2" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MovieCRUDService/Movies/?disco" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="31284026-d035-4484-b506-ccb85623dfe7" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MovieCRUDService/Movies/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
