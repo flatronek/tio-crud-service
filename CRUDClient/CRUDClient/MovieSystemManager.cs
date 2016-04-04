@@ -53,7 +53,7 @@ namespace CRUDClient
             }
             else
             {
-                this.user = new Person() { Id = reviewsClient.GetAllAuthors().Last().Id + 1, Name = firstName, Surname = lastName };
+                this.user = new Person() { Id = GetAuthorId(), Name = firstName, Surname = lastName };
                 int userId = reviewsClient.AddAuthor(user);
             }
         }
@@ -112,7 +112,7 @@ namespace CRUDClient
                 {
                     Review review = new Review()
                     {
-                        Id = reviewsClient.GetAllReviews().Last().Id,
+                        Id = GetReviewId(),
                         MovieId = movieId,
                         Content = content,
                         Author = user
@@ -183,6 +183,26 @@ namespace CRUDClient
             }
             else
                 Console.WriteLine("Wrong input.");
+        }
+
+        internal int GetAuthorId()
+        {
+            List<Person> authors = reviewsClient.GetAllAuthors();
+
+            if (authors.Count == 0)
+                return 0;
+
+            return authors.Last().Id + 1;
+        }
+
+        internal int GetReviewId()
+        {
+            List<Review> reviews = reviewsClient.GetAllReviews();
+
+            if (reviews.Count == 0)
+                return 0;
+
+            return reviews.Last().Id + 1;
         }
     }
 }
