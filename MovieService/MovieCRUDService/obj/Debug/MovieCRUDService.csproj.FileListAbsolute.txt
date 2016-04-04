@@ -20,8 +20,6 @@ C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\bin\Debug\Model.dll
 C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\bin\Debug\MovieDB.dll
 C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\bin\Debug\LiteDB.dll
 C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\bin\Debug\MovieDB.pdb
-C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\bin\Debug\DBInterfaces.pdb
-C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\bin\Debug\Model.pdb
 C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\bin\Debug\LiteDB.xml
 C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\obj\Debug\MovieCRUDService.csprojResolveAssemblyReference.cache
 C:\Projekty\TIO\CRUD\MovieService\MovieCRUDService\obj\Debug\MovieCRUDService.dll

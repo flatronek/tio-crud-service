@@ -6,8 +6,6 @@ C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\bin\Debug\Model.dll
 C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\bin\Debug\ReviewsDB.dll
 C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\bin\Debug\LiteDB.dll
 C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\bin\Debug\ReviewsDB.pdb
-C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\bin\Debug\DBInterfaces.pdb
-C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\bin\Debug\Model.pdb
 C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\bin\Debug\LiteDB.xml
 C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\obj\Debug\ReviewsCRUDService.csprojResolveAssemblyReference.cache
 C:\Projekty\TIO\CRUD\ReviewService\ReviewsCRUDService\obj\Debug\ReviewsCRUDService.dll
